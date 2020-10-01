@@ -28,7 +28,7 @@ paginate: 10
 markdown: CommonMarkGhPages
 commonmark:
   options: ["SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "table", "tagfilter"]
+  extensions: ["strikethrough", "table"]
 
 # https://github.com/jekyll/jekyll-sass-converter
 sass:
@@ -62,3 +62,4 @@ exclude:
   - Gemfile.lock
   - LICENSE.md
   - README.md
+  - vendor

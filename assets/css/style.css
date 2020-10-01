@@ -26,3 +26,9 @@ pre {
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
+
+.video-container {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
