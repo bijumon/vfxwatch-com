@@ -22,6 +22,7 @@ url: https://www.vfxwatch.com/
 baseurl: ""
 #permalink: pretty
 #excerpt_separator: <!--more--> 
+paginate: 10
 
 # https://github.com/github/jekyll-commonmark-ghpages
 markdown: CommonMarkGhPages
