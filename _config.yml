@@ -32,7 +32,7 @@ commonmark:
 
 # https://github.com/jekyll/jekyll-sass-converter
 sass:
-  sass_dir: assets/sass
+  sass_dir: _sass
   style: :compressed
 
 # Front matter defaults

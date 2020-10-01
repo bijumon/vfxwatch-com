@@ -2,13 +2,19 @@
 ---
 
 @import "{{ site.theme }}";
-@import "google-fonts-fira"
+@import "google-fonts-fira";
 
 body {
     font: 14px/1.5 "Fira Sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color:#555555;
 }
 
+@media (min-width: 38em) {
+    body {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
 
 code, pre {
     font-family:"Fira Code", Monaco, Bitstream Vera Sans Mono, Lucida Console, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
@@ -29,6 +35,18 @@ pre {
 
 .video-container {
     margin: auto;
+    margin-bottom: 1rem;
     padding: 0;
     text-align: center;
+}
+
+@media (min-width: 56em) {
+    .video-container > iframe {
+        width: 560px;
+        height: 315px;
+    }
+}
+
+article.post {
+    margin-bottom: 2rem;
 }
