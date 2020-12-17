@@ -1,6 +1,10 @@
 # Jekyll website published using github pages
 # ref: https://pages.github.com/versions/
 # 
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
 
 # About/contact
 author:
@@ -17,15 +21,14 @@ description: 'news visual-effects graphics graphics-programming vfx'
 timezone: Asia/Kolkata
 
 # Publishing 
-theme: jekyll-theme-minimal
 url: https://www.vfxwatch.com/
 baseurl: ""
-#permalink: pretty
-#excerpt_separator: <!--more--> 
+permalink: pretty
+excerpt_separator: <!--more--> 
 paginate: 10
 
 # https://github.com/github/jekyll-commonmark-ghpages
-markdown: CommonMarkGhPages
+markdown: CommonMark
 commonmark:
   options: ["SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "table"]

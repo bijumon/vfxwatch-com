@@ -1,18 +1,66 @@
 ---
 ---
 
-@import "{{ site.theme }}";
 @import "google-fonts-fira";
 
 body {
-    font: 14px/1.5 "Fira Sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color:#555555;
+    font-family: "Fira Sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#111111;
 }
 
-@media (min-width: 38em) {
+a {
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 3em;
+    h1 {
+        margin: 2em 0 4px 0;
+    }
+
+    p { margin: 0; }
+}
+
+footer {
+    border-top: 1px solid #eeeeee;
+}
+
+.posts {
+    article.post {
+        margin-bottom: 4em;
+
+        h1.post-title {
+            border-bottom: 1px solid #eeeeee;
+            margin: 0;
+            margin-bottom: 4px;
+        }
+
+        .post-meta {
+            margin: 0;
+            margin-bottom: 3em;
+
+            span {
+                color: #888888;
+            }
+        }
+    }
+}
+
+@media (min-width: 43em) {
     body {
         font-size: 16px;
         line-height: 1.6;
+
+		max-width: 40em;
+		margin: 0 auto;
+    }
+}
+
+@media (min-width: 82em) {
+    body {
+        font-size: 20px;
+        max-width: 48em;
     }
 }
 

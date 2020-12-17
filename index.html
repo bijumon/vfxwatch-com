@@ -6,11 +6,14 @@ title: frontpage
 <div class="posts">
   {% for post in paginator.posts %}
   <article class="post">
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
     <h1 class="post-title">
       <a href="{{ post.target_url }}">{{ post.title }}</a>
     </h1>
-    <a href="{{ post.url | absolute_url }}">permalink</a>
+    <p class="post-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+        <span>/</span>
+        <a href="{{ post.url | absolute_url }}">permalink</a>
+    </p>
     {{ post.content }}
   </article>
   {% endfor %}
