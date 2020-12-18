@@ -5,6 +5,11 @@
     text-align: center;
 }
 
+.video-container > iframe {
+    width: 300px;
+    height: 176px;
+}
+
 @media (min-width: 43em) {
     .video-container > iframe {
         width: 560px;
