@@ -15,7 +15,7 @@ Unity 2020.2 TECH Stream adds several new features and improvements to the Unive
 <br/>
 
 <div class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7gU7V-EENl4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/7gU7V-EENl4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
  A new HDRP sample scene is included with multiple setups of physically based light intensities and is a template for creating realistic scenes.
