@@ -1,0 +1,48 @@
+/*
+    breakpoints at 16px
+        43em (688px),
+        62em (992px),
+        82em (1312px)
+*/
+
+body {
+    margin: 1em;
+}
+
+@media (min-width: 43em) {
+    body {
+		max-width: 32em;
+		margin: 0 auto;
+    }
+}
+
+@media (min-width: 62em) {
+    body {
+		max-width: 36em;
+		margin: 0 auto;
+    }
+}
+
+@media (min-width: 82em) {
+    body {
+        font-size: $large-font-size;
+        max-width: 38em;
+    }
+}
+
+header {
+    margin: 1em 0 4em 0;
+    
+    h1 {
+        margin: 0;
+        font-weight: 900;
+        
+        a { color: $black; }
+    }
+
+    .tagline { color: $gray-3; }
+}
+
+footer {
+    border-top: 1px solid $border-color; 
+}

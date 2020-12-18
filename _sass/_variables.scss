@@ -1,0 +1,34 @@
+$white: #FFFFFF;
+$gray-1: #f9f9f9;
+$gray-2: #ccc;
+$gray-3: #767676;
+$gray-4: #515151;
+$gray-5: #313131;
+
+
+$red: #FF0000;
+$green: #00FF00;
+$blue: #0000FF;
+$orange: #d28445;
+
+$cyan: #75b5aa;
+$magenta: #FF00FF;
+$yellow: #f4bf75;
+$brown: #964B00;
+$black: #000000;
+
+$root-font-family: "Fira Sans", "Droid Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Helvetica Neue", Arial, sans-serif;
+$root-font-size: 16px;
+$root-line-height: 1.5;
+
+$body-color: $gray-5;
+$body-bg: $white;
+$link-color: lighten($blue,10);
+
+$border-color: #e5e5e5;
+
+$large-breakpoint: 38em;
+$large-font-size: 20px;
+
+$code-font-family: "Fira Code", Monaco, Bitstream Vera Sans Mono, Lucida Console, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+$code-color: $black;

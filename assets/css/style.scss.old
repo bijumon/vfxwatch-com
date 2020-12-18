@@ -1,0 +1,105 @@
+---
+---
+
+@import "google-fonts-fira";
+@import "base";
+
+/*
+body {
+    font-family: "Fira Sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#111111;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 3em;
+    h1 {
+        margin: 2em 0 4px 0;
+    }
+
+    p { margin: 0; }
+}
+
+footer {
+    border-top: 1px solid #eeeeee;
+}
+
+.posts {
+    article.post {
+        margin-bottom: 4em;
+
+        h1.post-title {
+            border-bottom: 1px solid #eeeeee;
+            margin: 0;
+            margin-bottom: 4px;
+        }
+
+        .post-meta {
+            margin: 0;
+            margin-bottom: 3em;
+
+            span {
+                color: #888888;
+            }
+        }
+    }
+}
+
+@media (min-width: 43em) {
+    body {
+        font-size: 16px;
+        line-height: 1.6;
+
+		max-width: 40em;
+		margin: 0 auto;
+    }
+}
+
+@media (min-width: 82em) {
+    body {
+        font-size: 20px;
+        max-width: 48em;
+    }
+}
+
+code, pre {
+    font-family:"Fira Code", Monaco, Bitstream Vera Sans Mono, Lucida Console, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+}
+*/
+
+/* 
+    Browser specific (not valid) styles to make preformatted text wrap 
+    https://css-tricks.com/snippets/css/make-pre-text-wrap/
+*/
+
+pre {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+/*
+.video-container {
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 0;
+    text-align: center;
+}
+
+@media (min-width: 56em) {
+    .video-container > iframe {
+        width: 560px;
+        height: 315px;
+    }
+}
+
+article.post {
+    margin-bottom: 2rem;
+}
+*/

@@ -1,0 +1,13 @@
+.video-container {
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 0;
+    text-align: center;
+}
+
+@media (min-width: 43em) {
+    .video-container > iframe {
+        width: 560px;
+        height: 315px;
+    }
+}

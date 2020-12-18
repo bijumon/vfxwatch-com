@@ -21,7 +21,7 @@ description: 'news visual-effects graphics graphics-programming vfx'
 timezone: Asia/Kolkata
 
 # Publishing 
-url: https://www.vfxwatch.com/
+url: https://www.vfxwatch.com
 baseurl: ""
 permalink: pretty
 excerpt_separator: <!--more--> 
@@ -36,7 +36,7 @@ commonmark:
 # https://github.com/jekyll/jekyll-sass-converter
 sass:
   sass_dir: _sass
-  style: :compressed
+    #  style: :compressed
 
 # Front matter defaults
 defaults:
