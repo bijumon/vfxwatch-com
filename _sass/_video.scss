@@ -11,3 +11,10 @@
         height: 315px;
     }
 }
+
+@media (min-width: 82em) {
+    .video-container > iframe {
+        width: 42em;
+        height: 24.5em;
+    }
+}
