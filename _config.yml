@@ -54,7 +54,7 @@ defaults:
       layout: "page"
 
 # Google Analytics tracking
-# ga_analytics: UA-000000-0
+ga_analytics: G-PD905GD4PG
 
 # Exclude from published site
 exclude:
